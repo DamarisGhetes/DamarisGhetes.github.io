@@ -90,14 +90,14 @@ button:hover{
 .left{
     width: 25%;
     height: 55vh;
-    background: url("./zoo-online.png") no-repeat center/cover;
+    background: url("zoo-online.png") no-repeat center/cover;
     border-radius: 8px;
 }
 
 .left2{
     width: 25%;
     height: 55vh;
-    background: url("./italia.png") no-repeat center/cover;
+    background: url("italia.png") no-repeat center/cover;
     border-radius: 8px;
     margin-left: 5vw;
 }
