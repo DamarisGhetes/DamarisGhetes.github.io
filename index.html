@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9c6a9dbfc6.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+    <link rel="manifest" href="./icon/site.webmanifest">
+    <!-- ************* -->
+    <link rel="stylesheet" href="./css/images.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/page.css">
+    <title>Damaris Ghetes</title>
+</head>
+<body onscroll="scrollFct()">
+    <button id="scrollBtn" onclick="topFct()"><i class="fa fa-angle-double-up"></i></button>
+    <header>
+        <div class="logo">
+            <img src="./img/logo2.png" alt="logo1">
+        </div>
+        <nav>
+            <a href="#" class="menu-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="menu">
+                <ul>
+                    <!-- <li><a href="index.html">Acasă</a></li> -->
+                    <li><button onclick="proiecteFct()">Proiecte</button></li>
+                    <li><button onclick="topFct()">Abilități</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="col">
+                <p class="nume">Gheteș Damaris-Ligia</p>
+                <div class="scurta-descriere">
+                    <p>Studentă la USV, FIESC<br>Calculatoare, anul lll</p>
+                    <div class="mail">
+                        <i class="fas fa-mail-bulk"></i>
+                        <p>damaris.ghetes@student.usv.ro</p>
+                    </div>
+                    <div class="locatie">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Brodina, Suceava</p>
+                    </div>
+                    <button onclick="despreFct()" type="button">Despre mine</button>
+                </div>
+                
+            </div>
+            <div class="col">
+                <img src="./img/2.png" alt="image with me" class="me-image">
+            </div>
+            <img class="pink-rectangle-background" src="./img/pink-background.png" alt="background">
+        </div>
+
+        
+        <div class="proiecte">
+           <h1>Proiecte realizate</h1>
+            <div class="container">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h2>Zoo online</h2>
+                        <p class="proiecte-p">Pagină web care conține o scurtă descriere a claselor de animale, dar și o descriere mai amănunțită cu imagini
+                            a unor animale.</p>
+                        <a href="https://damarisghetes.github.io/Zoo-online/" class="proiect-button">https://damarisghetes.github.io/Zoo-online/</a>
+                        <p class="an-realizare">2020</p>
+                    </div>
+                </div>
+                <div class="left2">
+                </div>
+                <div class="right">
+                    <div class="content">
+                        <h2>Italia</h2>
+                        <p class="proiecte-p">Pagină web în care este descrisă Italia: istorie, geografie, personalități, mâncare specifică.</p>
+                        <a href="https://damarisghetes.github.io/Italia/" class="proiect-button">https://damarisghetes.github.io/Italia/</a>
+                        <p class="an-realizare">2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--         
+        <div class="mh-skills" id="mh-skills">
+            <div class="skill-container">
+                <div class="skill-row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-skills-inner">
+                            <div class="mh-professional-skill">
+                                <h3>Competențe</h3>
+                                <div class="each-skills">
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">C++</div>
+                                                <div class="percentage-num">68%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="perentagem" style="width: 68%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">Html/CSS</div>
+                                                <div class="percentage-num">50%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="perentagem" style="width: 50%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">Python</div>
+                                                <div class="percentage-num">46%</div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="perentagem" style="width: 46%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-professional-skills">
+                            <h3>Abilități</h3>
+                            <div class="mh-professional-progress">
+
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress = "92"></div>
+                                    <div class="pr-skill-name">Atitudinea pozitivă</div>
+                                </li>
+
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress = "80"></div>
+                                    <div class="pr-skill-name">Lucru în echipă</div>
+                                </li>
+
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress = "75"></div>
+                                    <div class="pr-skill-name">Creativitate</div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="despre-mine">
+            <h1>Despre mine</h1>
+            <div class="background-despre">
+                <h3>Timp liber</h3>
+                <p>Iubitoare de cărți, natură și animale, viața extrașscolară este, de cele mai multe ori, plină de aventuri. </p>
+                <ul>
+                    <li>
+                        <img src="./img/natura2.jpg" alt="imagine-natura" class="imagine-despre">
+                        <p><i><b>"Peisaje de basm. Există stânci mărețe, puternice, innaccesibile, care se pot totuși prăbuși
+                            de-un simplu ecou: în peisajul sufletului."</b></i><br><br>Lucian Blaga</p>
+                    </li>
+                    <li>
+                        <img src="./img/offroad.jpg" alt="imagine-natura" class="imagine-despre">
+                        <p><b>Necesito vitamina de aventura.</b></p>
+                    </li>
+                    <li>
+                        <img src="./img/ferma.jpg" alt="imagine-natura" class="imagine-despre">
+                        <p><i><b>"Veșnicia s-a născut la sat."</b></i><br><br>Lucian Blaga</p>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        
+        <p class="footer-text">"Perfection isn't when there's nothing else to add,
+             it's when you can't take anything away." - Antonione de Saint</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

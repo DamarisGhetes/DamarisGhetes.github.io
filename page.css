@@ -1,0 +1,234 @@
+.row{
+    display: flex;
+    align-items: center;
+}
+
+.col{
+    flex-basis: 50%;
+    padding-left:140px;
+    z-index: 1;
+}
+
+.nume{
+    font-size:3rem;
+    background: linear-gradient(to right, #201e1e, #646363);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.scurta-descriere{
+    padding-left: 15vh;
+    align-items: center;
+    justify-content: center
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    width: 180px;
+    color: #111;
+    font-size: 1rem;
+    padding: 12px 0;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #111;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #f5bc87;
+}
+
+.pink-rectangle-background
+{
+    position: absolute;
+    width: 70vw;
+    height: 55vh;
+    margin: 5vh 15vw;
+    opacity: 0.7;
+}
+
+.fas{
+    font-size: 30px;
+    padding-right: 2vw;
+    color: #525151;
+}
+
+.footer-text{
+    font-size: 18px;
+    margin-left: 20%;
+}
+
+.proiecte h1, .despre-mine h1{
+    color: #525151;
+    margin-left: 15vw;
+    padding: 25px;
+}
+
+.proiecte{
+    margin: 20vh 0;
+    padding-bottom: 10vh;
+    justify-content: center;
+    background-color: #f5bc87;
+}
+
+.container{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 25%;
+    height: 55vh;
+    background: url(../img/zoo-online.png) no-repeat center/cover;
+    border-radius: 8px;
+}
+
+.left2{
+    width: 25%;
+    height: 55vh;
+    background: url(../img/italia.png) no-repeat center/cover;
+    border-radius: 8px;
+    margin-left: 5vw;
+}
+
+.left:hover{
+    opacity: 1;
+}
+
+.right{
+    width: 25%;
+    height: 38vh;
+    background-color: #646363;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 8px;
+    color: white;
+    margin-left: -100px;
+    opacity: 0.8;
+}
+
+.right h12{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.proiecte-p{
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.proiect-button{
+    text-decoration: none;
+    background-color: white;
+    color: #111;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+.an-realizare{
+    text-align: right;
+}
+
+.background-despre{
+    width: 80vw;
+    padding: 1%;
+    margin-left: 10vw;
+    margin-bottom: 3vh;
+    background-color: #fcd5b1;
+    height: 75vh;
+    text-align: center;
+}
+
+.background-despre ul{
+    display: flex;
+    list-style-type:none;
+    height: 80%;
+}
+
+.background-despre li{
+    width: 30%;
+    margin: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #646363;
+
+}
+
+.locatie{
+    display: flex;
+    align-items: center;
+
+}
+
+#scrollBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+    border: 1px solid #333;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+  }
+  
+  #scrollBtn:hover{
+    background-color: #333;
+    color: #fff;
+  }
+
+/*
+.mh-skills .mh-professional-skill{
+     padding-right: 60px;
+     color: #111;
+}
+
+.mh-skills .mh-professional-skill h3, .mh-professional-skills h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.mh-professional-skills{
+    padding-left: 20%;
+}
+
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin:0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress{
+    margin-bottom: 10px;
+    color: #111;
+}
+*/
